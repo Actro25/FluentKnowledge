@@ -1,0 +1,18 @@
+.deck {
+    display: flex;
+    background: #EFDBC6;
+    border-radius: 100px;
+    height: 20px;
+    padding: 7px 0 7px 15px;
+}
+
+.deck-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
